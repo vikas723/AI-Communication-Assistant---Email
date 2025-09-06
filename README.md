@@ -5,7 +5,7 @@
 Modern organizations receive hundreds (sometimes thousands) of emails daily. Many of these are support-related (customer queries, requests, or help tickets).
 Manually filtering, prioritizing, and drafting professional responses is time-consuming and error-prone. An intelligent communication assistant that helps teams analyze, prioritize, and respond to emails automatically.Built for efficiency in customer support / helpdesk scenarios, this system performs sentiment analysis, priority detection, AI-driven response drafting, and analytics visualization — all in one streamlined dashboard.
 
-**This project implements an AI-Powered Communication Assistant that manages emails end-to-end:**
+**This project implements an AI-Powered Communication Assistant that manages emails end-to-end**
 
 Automatically retrieves and filters emails.
 
@@ -75,7 +75,7 @@ Expandable email cards with priority/status icons.
 
 📂 **Database Persistence:** Stores emails, status, and responses in a lightweight SQLite database (emails.db).
 
-**Analytics include:**
+**Analytics include**
 
 📌 Sentiment distribution → Positive, Neutral, Negative
 
@@ -91,7 +91,7 @@ Expandable email cards with priority/status icons.
 
 Real-time stats (last 24h, pending, resolved).
 
-📂 **Dataset The Dataset.csv contains:**
+📂 **Dataset The Dataset.csv contains**
 
 sender → Email sender address
 
@@ -109,7 +109,7 @@ priority (Urgent / Not Urgent)
 
 ai_response (auto-drafted email reply)
 
-🏗️ **Tech Stacks Used:**
+🏗️ **Tech Stacks Used**
 
 Frontend → Streamlit Interactive UI for email review and analytics
 
