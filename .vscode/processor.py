@@ -1,35 +1,3 @@
-# import re
-# import pandas as pd
-# from nltk.sentiment.vader import SentimentIntensityAnalyzer
-
-# urgent_keywords = ["immediate", "urgent", "critical", "cannot access", "blocked"]
-
-# def detect_sentiment(text):
-#     sid = SentimentIntensityAnalyzer()
-#     score = sid.polarity_scores(text)
-#     if score["compound"] >= 0.05:
-#         return "Positive"
-#     elif score["compound"] <= -0.05:
-#         return "Negative"
-#     else:
-#         return "Neutral"
-
-# def detect_priority(subject, body):
-#     text = f"{subject.lower()} {body.lower()}"
-#     for word in urgent_keywords:
-#         if word in text:
-#             return "Urgent"
-#     return "Not Urgent"
-
-# def process_dataset(csv_path):
-#     df = pd.read_csv(csv_path)
-#     results = []
-#     for _, row in df.iterrows():
-#         sentiment = detect_sentiment(row["body"])
-#         priority = detect_priority(row["subject"], row["body"])
-#         results.append((row["sender"], row["subject"], row["body"], row["sent_date"], sentiment, priority))
-#     return results
-
 import pandas as pd
 import re
 import nltk
